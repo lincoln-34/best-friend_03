@@ -1,0 +1,136 @@
+/* RESET AMAN */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR FIXED (BIAR TIDAK NINDIH) */
+body {
+  
+}
+
+/* HERO PERTAMA */
+.hero-image {
+    
+  height: 100vh;
+  background-image: url('konco.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* HERO KEDUA */
+.hero2-image {
+  
+  height: 100vh;
+  background-image: url('fotbar2.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* OVERLAY (TETAP SAMA) */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+/* TEKS (UKURAN TIDAK DIUBAH) */
+.hero-overlay h1 {
+  font-size: 60px;
+  font-weight: 80px;
+  margin-bottom: 10px;
+}
+
+.hero-overlay p {
+  font-size: 20px;
+  max-width: 700px;
+}
+/* =========================
+   TOMBOL GLOBAL (BIRU)
+========================= */
+.btn {
+  background-color: #2563eb;   /* biru */
+  border-color: #2563eb;
+  color: white;
+}
+
+/* Hover effect */
+.btn:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+  color: white;
+}
+
+/* Tombol outline jadi biru juga */
+.btn-outline-light {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  color: white;
+}
+
+.btn-outline-light:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+  color: white;
+}
+.btn {
+  border-radius: 50px;
+  padding: 12px 32px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.45);
+}
+/* =========================
+   HALAMAN TEMEN 1
+========================= */
+.friend-page {
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: white;
+  min-height: 100vh;
+  
+}
+.friend-section {
+  padding: 120px 0 80px;
+}
+.friend-section h2 {
+  font-size: clamp(2rem, 5vw, 2.6rem);
+  font-weight: 700;
+  text-align: center;
+}
+.friend-story p {
+  max-width: 900px;
+  margin: 0 auto 1.6rem;
+  font-size: clamp(1rem, 3.5vw, 1.1rem);
+  line-height: 1.9;
+  opacity: 0.95;
+}
+.footer {
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: white;
+}

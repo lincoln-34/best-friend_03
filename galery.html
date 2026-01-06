@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Galeri Kenangan</title>
+<link rel="icon" type="image/png" href="bear3.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#020617,#0f172a);
+    color:white;
+    font-family:system-ui;
+}
+
+.container-box{
+    max-width:1100px;
+    margin:auto;
+    padding:30px 16px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+    font-weight:600;
+}
+h3{
+    text-align:center;
+    margin-bottom:30px;
+    font-weight:200;
+}
+
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(260px, 1fr));
+  gap:20px;
+}
+.gallery img{
+  width:100%;
+  height:auto;
+  border-radius:16px;
+  object-fit:contain;
+  background:#000;
+  box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
+
+
+
+.gallery video,
+.gallery iframe{
+    width:100%;
+    aspect-ratio: 9 / 16; /* IG style */
+    border-radius:16px;
+    background:#000;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
+
+/* khusus video */
+.gallery video{
+    object-fit: contain;
+}
+
+/* video control */
+video{
+    outline:none;
+}
+
+/* layar besar */
+@media (min-width:768px){
+    .gallery img,
+    .gallery video{
+        height:320px;
+    }
+}
+.gallery video,
+.gallery iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  background: #000;
+}
+</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-scrolled">
+    <div class="container ps-5">
+      <a class="navbar-brand" href="index.html">BestFriend 💙</a>
+    </div>
+    <div class="collapse navbar-collapse pe-5" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tentang-aku.php">Tentang</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="galery.html">Galeri</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="maaf.html">Maaf</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="container-box">
+
+    <h1 class="h1">Galeri Kenangan</h1>
+    <h3 class="pt-5">Beberapa foto</h3>
+    <div class="gallery">
+
+        <!-- FOTO -->
+        <img src="bear.png">
+        <img src="bear2.jpg">
+        <img src="konco.jpg">
+        <img src="fotbar2.jpeg">
+        <img src="bayang.jpg">
+        <img src="foto.jpg">
+        <img src="madang.jpg">
+        <img src="sa'i.jpg">
+        <img src="namsyi.jpg">
+
+        
+
+    </div>
+    <h3 class="pt-5 pb-3">Beberapa video</h3>
+    <div class="gallery">
+      <video src="video.mp4" controls></video>
+      <iframe src="https://youtube.com/embed/MV--fGBtXyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <video src="vid1.mp4" controls></video>
+      <video src="vid2.mp4" controls></video>
+      <video src="vid3.mp4" controls></video>
+      <video src="vid4.mp4" controls></video>
+      <video src="vid5.mp4" controls></video>
+      <iframe src="https://youtube.com/embed/P_QHx-rb4wQ?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <video src="vid7.mp4" controls></video>
+      <video src="vid8.mp4" class="video" controls></video>
+      <video src="salam.mp4" controls></video>
+      <video src="ultramen.mp4" controls></video>
+      <video src="panda.mp4" controls></video>
+      <video src="despacito.mp4" controls></video>
+      <video src="trs.mp4" controls></video>
+      <video src="trio.mp4" controls></video>
+      <video src="best.mp4" controls></video>
+      <video src="mk.mp4" controls></video>
+      <video src="potong.mp4" controls></video>
+      
+    </div>
+
+    
+</div>
+
+</body>
+</html>
