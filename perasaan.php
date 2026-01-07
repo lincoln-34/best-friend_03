@@ -250,7 +250,7 @@ p{
     </p>
 
     <div class="back">
-      <a href="index.html" class="btn btn-outline-light px-5">
+      <a href="tentang-aku.php" class="btn btn-outline-light px-5">
         ⬅️ Kembali
       </a>
     </div>
@@ -260,3 +260,4 @@ p{
 
 </body>
 </html>
+
