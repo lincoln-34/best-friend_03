@@ -17,7 +17,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-transparent">
   <div class="container">
-    <a class="navbar-brand" href="index.html">BestFriend 💙</a>
+    <a class="navbar-brand" href="index.php">BestFriend 💙</a>
 
     <button class="navbar-toggler" type="button" 
       data-bs-toggle="collapse" 
@@ -76,3 +76,4 @@
 
 </body>
 </html>
+
