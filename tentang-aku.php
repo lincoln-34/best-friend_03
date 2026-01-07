@@ -17,7 +17,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-transparent">
   <div class="container">
-    <a class="navbar-brand" href="index.html">BestFriend 💙</a>
+    <a class="navbar-brand" href="index.php">BestFriend 💙</a>
 
     <button class="navbar-toggler" type="button" 
       data-bs-toggle="collapse" 
@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Beranda</a>
+          <a class="nav-link" href="index.php">Beranda</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="tentang-aku.php">Tentang</a>
@@ -100,3 +100,4 @@
 
 </body>
 </html>
+
