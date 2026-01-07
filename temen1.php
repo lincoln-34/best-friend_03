@@ -35,7 +35,7 @@ if (!isset($_SESSION['temen1'])) {
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-scrolled">
   <div class="container">
-    <a class="navbar-brand" href="index.html">BestFriend 💙</a>
+    <a class="navbar-brand" href="index.php">BestFriend 💙</a>
   </div>
 </nav>
 
@@ -269,3 +269,4 @@ pernah dipertemukan denganmu.
 
 </body>
 </html>
+
