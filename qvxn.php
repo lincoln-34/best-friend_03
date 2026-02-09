@@ -11,7 +11,7 @@ if (!isset($_SESSION['temen1'])) {
 <head>
   <meta charset="UTF-8">
   <title>Dika Terbaikku</title>
-  <link rel="icon" type="image/png" href="bear3.jpg">
+  <link rel="icon" type="image/png" href="D (1).png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap -->
@@ -269,4 +269,5 @@ pernah dipertemukan denganmu.
 
 </body>
 </html>
+
 
