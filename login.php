@@ -6,14 +6,14 @@ $error = "";
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $password = $_POST['password'];
 
-    if ($password === "mhmmddkkrnwn49111") {
+    if ($password === "hadeehkok") {
         $_SESSION['temen1'] = true;
-        header("Location: temen1.php");
+        header("Location: qvxn.php");
         exit;
     } 
-    elseif ($password === "khldkeren4946") {
+    elseif ($password === "jamiil") {
         $_SESSION['temen2'] = true;
-        header("Location: temen2.php");
+        header("Location: xunyvq.php");
         exit;
     } 
     elseif ($password === "andaamjiddan") {
@@ -184,3 +184,4 @@ function togglePassword() {
 
 </body>
 </html>
+
