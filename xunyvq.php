@@ -12,7 +12,7 @@ if (!isset($_SESSION['temen2'])) {
 <head>
   <meta charset="UTF-8">
   <title>Khalid Terbaikku</title>
-  <link rel="icon" type="image/png" href="bear3.jpg">
+  <link rel="icon" type="image/png" href="k.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap -->
@@ -188,5 +188,6 @@ if (!isset($_SESSION['temen2'])) {
 
 </body>
 </html>
+
 
 
