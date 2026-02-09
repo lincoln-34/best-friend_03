@@ -229,7 +229,10 @@ pernah dipertemukan denganmu.
     <div class="d-flex justify-content-center gap-3 flex-wrap">
 
         <a href="https://akid1710.github.io/Langit-Senja/" target="_blank" class="btn btn-primary px-4">
-            📝 Cerita
+            📝 Cerita 1
+        </a>
+        <a href="https://meja-makan.netlify.app/" target="_blank" class="btn btn-primary px-4">
+            📝 Cerita 2
         </a>
 
         <a href="https://akid1710.github.io/Best-Friend/" target="_blank" class="btn btn-primary px-4">
@@ -269,5 +272,6 @@ pernah dipertemukan denganmu.
 
 </body>
 </html>
+
 
 
